@@ -1,0 +1,1330 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "dg6a-rxvx",
+      "name" : "Nursing Home Compare - General Information",
+      "averageRating" : 0,
+      "createdAt" : 1316800556,
+      "description" : "A list that provides general nursing home information in response to a Nursing Home Compare search.",
+      "displayType" : "table",
+      "downloadCount" : 1108,
+      "numberOfComments" : 0,
+      "oid" : 334365,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1316800889,
+      "publicationGroup" : 216466,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1316800707,
+      "rowsUpdatedBy" : "wn9i-fkbr",
+      "signed" : false,
+      "tableId" : 241088,
+      "totalTimesRated" : 0,
+      "viewCount" : 6022,
+      "viewLastModified" : 1316800890,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "id",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "position",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : 2857154,
+        "name" : "Provider Number",
+        "dataTypeName" : "text",
+        "fieldName" : "provider_number",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1305061,
+        "width" : 250,
+        "cachedContents" : {
+          "non_null" : 15700,
+          "smallest" : "015009",
+          "null" : 0,
+          "largest" : "676287",
+          "top" : [ {
+            "count" : 1,
+            "item" : "155442"
+          }, {
+            "count" : 1,
+            "item" : "285098"
+          }, {
+            "count" : 1,
+            "item" : "45E947"
+          }, {
+            "count" : 1,
+            "item" : "146084"
+          }, {
+            "count" : 1,
+            "item" : "235454"
+          }, {
+            "count" : 1,
+            "item" : "235633"
+          }, {
+            "count" : 1,
+            "item" : "115576"
+          }, {
+            "count" : 1,
+            "item" : "675336"
+          }, {
+            "count" : 1,
+            "item" : "375327"
+          }, {
+            "count" : 1,
+            "item" : "335048"
+          }, {
+            "count" : 1,
+            "item" : "055454"
+          }, {
+            "count" : 1,
+            "item" : "375119"
+          }, {
+            "count" : 1,
+            "item" : "17E422"
+          }, {
+            "count" : 1,
+            "item" : "056182"
+          }, {
+            "count" : 1,
+            "item" : "085021"
+          }, {
+            "count" : 1,
+            "item" : "285002"
+          }, {
+            "count" : 1,
+            "item" : "155586"
+          }, {
+            "count" : 1,
+            "item" : "245012"
+          }, {
+            "count" : 1,
+            "item" : "245212"
+          }, {
+            "count" : 1,
+            "item" : "285200"
+          } ]
+        }
+      }, {
+        "id" : 2857155,
+        "name" : "Nursing Home Name",
+        "dataTypeName" : "html",
+        "fieldName" : "nursing_home_name",
+        "position" : 3,
+        "renderTypeName" : "html",
+        "tableColumnId" : 1361943,
+        "width" : 274,
+        "cachedContents" : {
+          "non_null" : 15700,
+          "smallest" : "(CLOSED) WESLEY HIGHLAND MANOR",
+          "null" : 0,
+          "largest" : "ZUMBROTA CARE CENTER",
+          "top" : [ {
+            "count" : 30,
+            "item" : "MILLER'S MERRY MANOR"
+          }, {
+            "count" : 25,
+            "item" : "MANORCARE HEALTH SERVICES"
+          }, {
+            "count" : 10,
+            "item" : "LITTLE SISTERS OF THE POOR"
+          }, {
+            "count" : 7,
+            "item" : "HERITAGE MANOR"
+          }, {
+            "count" : 5,
+            "item" : "PARKVIEW CARE CENTER"
+          }, {
+            "count" : 5,
+            "item" : "MOUNTAIN VIEW CARE CENTER"
+          }, {
+            "count" : 5,
+            "item" : "LUTHERAN HOME"
+          }, {
+            "count" : 5,
+            "item" : "HERITAGE HEALTH CARE CENTER"
+          }, {
+            "count" : 5,
+            "item" : "COMMUNITY CARE CENTER"
+          }, {
+            "count" : 5,
+            "item" : "LEXINGTON PLACE NURSING & REHABILITATION"
+          }, {
+            "count" : 4,
+            "item" : "MANOR CARE HEALTH SERVICES"
+          }, {
+            "count" : 4,
+            "item" : "VALLEY HEALTH CARE CENTER"
+          }, {
+            "count" : 4,
+            "item" : "HERITAGE CARE CENTER"
+          }, {
+            "count" : 4,
+            "item" : "CHRISTIAN HEALTH CENTER"
+          }, {
+            "count" : 4,
+            "item" : "TRINITY CARE CENTER"
+          }, {
+            "count" : 4,
+            "item" : "JEANNE JUGAN RESIDENCE"
+          }, {
+            "count" : 4,
+            "item" : "RIVERVIEW MANOR"
+          }, {
+            "count" : 3,
+            "item" : "PILGRIM MANOR"
+          }, {
+            "count" : 3,
+            "item" : "GRANDVIEW HEALTH CARE CENTER"
+          }, {
+            "count" : 3,
+            "item" : "ST JOSEPH RESIDENCE"
+          } ]
+        }
+      }, {
+        "id" : 2857156,
+        "name" : "Street",
+        "dataTypeName" : "text",
+        "fieldName" : "street",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1305041,
+        "width" : 142,
+        "cachedContents" : {
+          "non_null" : 15700,
+          "smallest" : "#10 MEDICAL BOULEVARD",
+          "null" : 0,
+          "largest" : "WILLOW AT FOURTH ST POB 1282",
+          "top" : [ {
+            "count" : 4,
+            "item" : "N2665 CTY RD QQ"
+          }, {
+            "count" : 2,
+            "item" : "3549 NORRISWOOD"
+          }, {
+            "count" : 2,
+            "item" : "100 LANCASTER AVENUE"
+          }, {
+            "count" : 2,
+            "item" : "1600 N CHESTNUT AVE"
+          }, {
+            "count" : 2,
+            "item" : "111 EAST WASHINGTON"
+          }, {
+            "count" : 2,
+            "item" : "120 MAIN STREET"
+          }, {
+            "count" : 2,
+            "item" : "7003 MAIN ST"
+          }, {
+            "count" : 2,
+            "item" : "5901 PALISADE AVENUE"
+          }, {
+            "count" : 2,
+            "item" : "400 SEVENTH STREET"
+          }, {
+            "count" : 2,
+            "item" : "400 N MAIN ST"
+          }, {
+            "count" : 2,
+            "item" : "700 EAST HIGHLAND AVENUE"
+          }, {
+            "count" : 2,
+            "item" : "2200 HARDEN STREET"
+          }, {
+            "count" : 2,
+            "item" : "261 NORTH STREET"
+          }, {
+            "count" : 2,
+            "item" : "200 PLEASANT STREET"
+          }, {
+            "count" : 2,
+            "item" : "701 SOUTH MAIN STREET"
+          }, {
+            "count" : 2,
+            "item" : "P O BOX 130"
+          }, {
+            "count" : 2,
+            "item" : "119 WEST HIGH STREET"
+          }, {
+            "count" : 2,
+            "item" : "1104 NORTH MAIN STREET"
+          }, {
+            "count" : 2,
+            "item" : "140 PARK AVE"
+          }, {
+            "count" : 2,
+            "item" : "300 CHERRY ST"
+          } ]
+        }
+      }, {
+        "id" : 2857157,
+        "name" : "City",
+        "dataTypeName" : "text",
+        "fieldName" : "city",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1305042,
+        "width" : 118,
+        "cachedContents" : {
+          "non_null" : 15700,
+          "smallest" : "ABBEVILLE",
+          "null" : 0,
+          "largest" : "ZWOLLE",
+          "top" : [ {
+            "count" : 92,
+            "item" : "CHICAGO"
+          }, {
+            "count" : 82,
+            "item" : "LOS ANGELES"
+          }, {
+            "count" : 70,
+            "item" : "CINCINNATI"
+          }, {
+            "count" : 62,
+            "item" : "HOUSTON"
+          }, {
+            "count" : 60,
+            "item" : "COLUMBUS"
+          }, {
+            "count" : 57,
+            "item" : "SAN ANTONIO"
+          }, {
+            "count" : 50,
+            "item" : "LOUISVILLE"
+          }, {
+            "count" : 49,
+            "item" : "SPRINGFIELD"
+          }, {
+            "count" : 49,
+            "item" : "INDIANAPOLIS"
+          }, {
+            "count" : 49,
+            "item" : "BALTIMORE"
+          }, {
+            "count" : 48,
+            "item" : "PHILADELPHIA"
+          }, {
+            "count" : 48,
+            "item" : "GREENVILLE"
+          }, {
+            "count" : 47,
+            "item" : "JACKSONVILLE"
+          }, {
+            "count" : 44,
+            "item" : "BROOKLYN"
+          }, {
+            "count" : 44,
+            "item" : "SAINT LOUIS"
+          }, {
+            "count" : 43,
+            "item" : "BRONX"
+          }, {
+            "count" : 41,
+            "item" : "CLEVELAND"
+          }, {
+            "count" : 39,
+            "item" : "JACKSON"
+          }, {
+            "count" : 38,
+            "item" : "DALLAS"
+          }, {
+            "count" : 38,
+            "item" : "PORTLAND"
+          } ]
+        }
+      }, {
+        "id" : 2857158,
+        "name" : "State",
+        "dataTypeName" : "text",
+        "fieldName" : "state",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1305043,
+        "width" : 130,
+        "cachedContents" : {
+          "non_null" : 15700,
+          "smallest" : "AK",
+          "null" : 0,
+          "largest" : "WY",
+          "top" : [ {
+            "count" : 1235,
+            "item" : "CA"
+          }, {
+            "count" : 1187,
+            "item" : "TX"
+          }, {
+            "count" : 961,
+            "item" : "OH"
+          }, {
+            "count" : 780,
+            "item" : "IL"
+          }, {
+            "count" : 709,
+            "item" : "PA"
+          }, {
+            "count" : 682,
+            "item" : "FL"
+          }, {
+            "count" : 635,
+            "item" : "NY"
+          }, {
+            "count" : 516,
+            "item" : "MO"
+          }, {
+            "count" : 507,
+            "item" : "IN"
+          }, {
+            "count" : 443,
+            "item" : "IA"
+          }, {
+            "count" : 428,
+            "item" : "MI"
+          }, {
+            "count" : 427,
+            "item" : "MA"
+          }, {
+            "count" : 423,
+            "item" : "NC"
+          }, {
+            "count" : 393,
+            "item" : "WI"
+          }, {
+            "count" : 384,
+            "item" : "MN"
+          }, {
+            "count" : 362,
+            "item" : "NJ"
+          }, {
+            "count" : 360,
+            "item" : "GA"
+          }, {
+            "count" : 342,
+            "item" : "KS"
+          }, {
+            "count" : 320,
+            "item" : "TN"
+          }, {
+            "count" : 313,
+            "item" : "OK"
+          } ]
+        }
+      }, {
+        "id" : 2857159,
+        "name" : "Zip Code",
+        "dataTypeName" : "text",
+        "fieldName" : "zip_code",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1305062,
+        "width" : 166,
+        "cachedContents" : {
+          "non_null" : 15700,
+          "smallest" : "00660",
+          "null" : 0,
+          "largest" : "99929",
+          "top" : [ {
+            "count" : 12,
+            "item" : "94541"
+          }, {
+            "count" : 11,
+            "item" : "11691"
+          }, {
+            "count" : 10,
+            "item" : "60640"
+          }, {
+            "count" : 10,
+            "item" : "63017"
+          }, {
+            "count" : 9,
+            "item" : "33161"
+          }, {
+            "count" : 9,
+            "item" : "21228"
+          }, {
+            "count" : 9,
+            "item" : "44145"
+          }, {
+            "count" : 9,
+            "item" : "95608"
+          }, {
+            "count" : 9,
+            "item" : "60626"
+          }, {
+            "count" : 9,
+            "item" : "91103"
+          }, {
+            "count" : 8,
+            "item" : "10463"
+          }, {
+            "count" : 8,
+            "item" : "01040"
+          }, {
+            "count" : 8,
+            "item" : "90057"
+          }, {
+            "count" : 8,
+            "item" : "45503"
+          }, {
+            "count" : 8,
+            "item" : "85712"
+          }, {
+            "count" : 8,
+            "item" : "91342"
+          }, {
+            "count" : 8,
+            "item" : "15601"
+          }, {
+            "count" : 8,
+            "item" : "06450"
+          }, {
+            "count" : 8,
+            "item" : "44106"
+          }, {
+            "count" : 8,
+            "item" : "80214"
+          } ]
+        }
+      }, {
+        "id" : 2857160,
+        "name" : "Phone Number",
+        "dataTypeName" : "text",
+        "fieldName" : "phone_number",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1305045,
+        "width" : 214,
+        "cachedContents" : {
+          "non_null" : 15700,
+          "smallest" : "(201) 226-9600",
+          "null" : 0,
+          "largest" : "9856512762",
+          "top" : [ {
+            "count" : 5,
+            "item" : "(601) 351-8015"
+          }, {
+            "count" : 4,
+            "item" : "(413) 786-8000"
+          }, {
+            "count" : 4,
+            "item" : "(715) 258-5586"
+          }, {
+            "count" : 3,
+            "item" : "(920) 386-3400"
+          }, {
+            "count" : 3,
+            "item" : "(330) 337-9503"
+          }, {
+            "count" : 3,
+            "item" : "(818) 774-3000"
+          }, {
+            "count" : 3,
+            "item" : "(214) 381-1815"
+          }, {
+            "count" : 2,
+            "item" : "(203) 375-5894"
+          }, {
+            "count" : 2,
+            "item" : "(216) 851-8200"
+          }, {
+            "count" : 2,
+            "item" : "(803) 737-5300"
+          }, {
+            "count" : 2,
+            "item" : "(310) 450-7694"
+          }, {
+            "count" : 2,
+            "item" : "(423) 764-6151"
+          }, {
+            "count" : 2,
+            "item" : "(860) 688-6443"
+          }, {
+            "count" : 2,
+            "item" : "(973) 696-3300"
+          }, {
+            "count" : 2,
+            "item" : "(973) 383-6200"
+          }, {
+            "count" : 2,
+            "item" : "(901) 325-7820"
+          }, {
+            "count" : 2,
+            "item" : "(612) 827-5677"
+          }, {
+            "count" : 2,
+            "item" : "(715) 384-2188"
+          }, {
+            "count" : 2,
+            "item" : "(415) 600-6000"
+          }, {
+            "count" : 2,
+            "item" : "(330) 674-0015"
+          } ]
+        }
+      }, {
+        "id" : 2857161,
+        "name" : "Health Survey Date",
+        "dataTypeName" : "date",
+        "fieldName" : "health_survey_date",
+        "position" : 9,
+        "renderTypeName" : "date",
+        "tableColumnId" : 1305046,
+        "width" : 286,
+        "cachedContents" : {
+          "non_null" : 15700,
+          "smallest" : 20100128,
+          "null" : 0,
+          "largest" : 1311231600,
+          "top" : [ {
+            "count" : 150,
+            "item" : 1290067200
+          }, {
+            "count" : 138,
+            "item" : 1294300800
+          }, {
+            "count" : 137,
+            "item" : 1291881600
+          }, {
+            "count" : 136,
+            "item" : 1284620400
+          }, {
+            "count" : 135,
+            "item" : 1299139200
+          }, {
+            "count" : 134,
+            "item" : 1283410800
+          }, {
+            "count" : 130,
+            "item" : 1302764400
+          }, {
+            "count" : 127,
+            "item" : 1297324800
+          }, {
+            "count" : 125,
+            "item" : 1305183600
+          }, {
+            "count" : 124,
+            "item" : 1285225200
+          }, {
+            "count" : 124,
+            "item" : 1282201200
+          }, {
+            "count" : 123,
+            "item" : 1296115200
+          }, {
+            "count" : 122,
+            "item" : 1292486400
+          }, {
+            "count" : 122,
+            "item" : 1291276800
+          }, {
+            "count" : 122,
+            "item" : 1286434800
+          }, {
+            "count" : 119,
+            "item" : 1294905600
+          }, {
+            "count" : 119,
+            "item" : 1297929600
+          }, {
+            "count" : 119,
+            "item" : 1287644400
+          }, {
+            "count" : 118,
+            "item" : 1279782000
+          }, {
+            "count" : 116,
+            "item" : 1291363200
+          } ]
+        },
+        "format" : {
+          "view" : "date"
+        }
+      }, {
+        "id" : 2857162,
+        "name" : "Fire Survey Date",
+        "dataTypeName" : "date",
+        "fieldName" : "fire_survey_date",
+        "position" : 10,
+        "renderTypeName" : "date",
+        "tableColumnId" : 1305047,
+        "width" : 262,
+        "cachedContents" : {
+          "non_null" : 15700,
+          "smallest" : 20100125,
+          "null" : 0,
+          "largest" : 1311318000,
+          "top" : [ {
+            "count" : 97,
+            "item" : 1297929600
+          }, {
+            "count" : 94,
+            "item" : 1283410800
+          }, {
+            "count" : 94,
+            "item" : 1299139200
+          }, {
+            "count" : 92,
+            "item" : 1285225200
+          }, {
+            "count" : 91,
+            "item" : 1290067200
+          }, {
+            "count" : 90,
+            "item" : 1301468400
+          }, {
+            "count" : 89,
+            "item" : 1285743600
+          }, {
+            "count" : 89,
+            "item" : 1294300800
+          }, {
+            "count" : 89,
+            "item" : 1284620400
+          }, {
+            "count" : 89,
+            "item" : 1289980800
+          }, {
+            "count" : 85,
+            "item" : 1291104000
+          }, {
+            "count" : 85,
+            "item" : 1298448000
+          }, {
+            "count" : 84,
+            "item" : 1282114800
+          }, {
+            "count" : 83,
+            "item" : 1298534400
+          }, {
+            "count" : 83,
+            "item" : 1291795200
+          }, {
+            "count" : 82,
+            "item" : 1300950000
+          }, {
+            "count" : 82,
+            "item" : 1292400000
+          }, {
+            "count" : 82,
+            "item" : 1295424000
+          }, {
+            "count" : 81,
+            "item" : 1297843200
+          }, {
+            "count" : 81,
+            "item" : 1292486400
+          } ]
+        },
+        "format" : {
+          "view" : "date"
+        }
+      }, {
+        "id" : 2857163,
+        "name" : "Number of Certified Beds",
+        "dataTypeName" : "number",
+        "fieldName" : "number_of_certified_beds",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1305048,
+        "width" : 358,
+        "cachedContents" : {
+          "non_null" : 15700,
+          "smallest" : "1",
+          "sum" : "1670694",
+          "null" : 0,
+          "average" : "106.4136305732484",
+          "largest" : "1389",
+          "top" : [ {
+            "count" : 1223,
+            "item" : "120"
+          }, {
+            "count" : 668,
+            "item" : "60"
+          }, {
+            "count" : 446,
+            "item" : "100"
+          }, {
+            "count" : 373,
+            "item" : "99"
+          }, {
+            "count" : 313,
+            "item" : "50"
+          }, {
+            "count" : 284,
+            "item" : "90"
+          }, {
+            "count" : 225,
+            "item" : "80"
+          }, {
+            "count" : 218,
+            "item" : "180"
+          }, {
+            "count" : 194,
+            "item" : "150"
+          }, {
+            "count" : 157,
+            "item" : "70"
+          }, {
+            "count" : 156,
+            "item" : "40"
+          }, {
+            "count" : 153,
+            "item" : "130"
+          }, {
+            "count" : 148,
+            "item" : "59"
+          }, {
+            "count" : 138,
+            "item" : "110"
+          }, {
+            "count" : 136,
+            "item" : "96"
+          }, {
+            "count" : 133,
+            "item" : "160"
+          }, {
+            "count" : 132,
+            "item" : "140"
+          }, {
+            "count" : 129,
+            "item" : "98"
+          }, {
+            "count" : 124,
+            "item" : "30"
+          }, {
+            "count" : 119,
+            "item" : "88"
+          } ]
+        }
+      }, {
+        "id" : 2857164,
+        "name" : "Total Number of Residents",
+        "dataTypeName" : "number",
+        "fieldName" : "total_number_of_residents",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1305049,
+        "width" : 370,
+        "cachedContents" : {
+          "non_null" : 15700,
+          "smallest" : "1",
+          "sum" : "1392076",
+          "null" : 0,
+          "average" : "88.66726114649682",
+          "largest" : "1361",
+          "top" : [ {
+            "count" : 172,
+            "item" : "53"
+          }, {
+            "count" : 170,
+            "item" : "56"
+          }, {
+            "count" : 167,
+            "item" : "55"
+          }, {
+            "count" : 165,
+            "item" : "57"
+          }, {
+            "count" : 162,
+            "item" : "50"
+          }, {
+            "count" : 159,
+            "item" : "54"
+          }, {
+            "count" : 157,
+            "item" : "95"
+          }, {
+            "count" : 156,
+            "item" : "58"
+          }, {
+            "count" : 152,
+            "item" : "59"
+          }, {
+            "count" : 150,
+            "item" : "92"
+          }, {
+            "count" : 150,
+            "item" : "82"
+          }, {
+            "count" : 149,
+            "item" : "88"
+          }, {
+            "count" : 149,
+            "item" : "60"
+          }, {
+            "count" : 146,
+            "item" : "91"
+          }, {
+            "count" : 144,
+            "item" : "49"
+          }, {
+            "count" : 143,
+            "item" : "87"
+          }, {
+            "count" : 142,
+            "item" : "71"
+          }, {
+            "count" : 141,
+            "item" : "94"
+          }, {
+            "count" : 141,
+            "item" : "46"
+          }, {
+            "count" : 140,
+            "item" : "100"
+          } ]
+        }
+      }, {
+        "id" : 2857165,
+        "name" : "Percent of Occupied Beds",
+        "dataTypeName" : "number",
+        "fieldName" : "percent_of_occupied_beds",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1305050,
+        "width" : 358,
+        "cachedContents" : {
+          "non_null" : 15580,
+          "smallest" : "1",
+          "sum" : "1287116",
+          "null" : 120,
+          "average" : "82.61335044929397",
+          "largest" : "100",
+          "top" : [ {
+            "count" : 736,
+            "item" : "93"
+          }, {
+            "count" : 670,
+            "item" : "95"
+          }, {
+            "count" : 665,
+            "item" : "94"
+          }, {
+            "count" : 659,
+            "item" : "88"
+          }, {
+            "count" : 647,
+            "item" : "92"
+          }, {
+            "count" : 623,
+            "item" : "98"
+          }, {
+            "count" : 620,
+            "item" : "96"
+          }, {
+            "count" : 604,
+            "item" : "91"
+          }, {
+            "count" : 601,
+            "item" : "97"
+          }, {
+            "count" : 598,
+            "item" : "90"
+          }, {
+            "count" : 525,
+            "item" : "89"
+          }, {
+            "count" : 512,
+            "item" : "100"
+          }, {
+            "count" : 483,
+            "item" : "87"
+          }, {
+            "count" : 424,
+            "item" : "85"
+          }, {
+            "count" : 412,
+            "item" : "86"
+          }, {
+            "count" : 401,
+            "item" : "83"
+          }, {
+            "count" : 373,
+            "item" : "84"
+          }, {
+            "count" : 343,
+            "item" : "80"
+          }, {
+            "count" : 324,
+            "item" : "82"
+          }, {
+            "count" : 311,
+            "item" : "99"
+          } ]
+        }
+      }, {
+        "id" : 2857166,
+        "name" : "Sprinkler Status",
+        "dataTypeName" : "text",
+        "fieldName" : "sprinkler_status",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1305051,
+        "width" : 262,
+        "cachedContents" : {
+          "non_null" : 15700,
+          "smallest" : "fully sprinklered",
+          "null" : 0,
+          "largest" : "partially sprinklered",
+          "top" : [ {
+            "count" : 14032,
+            "item" : "fully sprinklered"
+          }, {
+            "count" : 1483,
+            "item" : "partially sprinklered"
+          }, {
+            "count" : 185,
+            "item" : "not sprinklered"
+          } ]
+        }
+      }, {
+        "id" : 2857167,
+        "name" : "Program Participation",
+        "dataTypeName" : "text",
+        "fieldName" : "program_participation",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1305052,
+        "width" : 322,
+        "cachedContents" : {
+          "non_null" : 15700,
+          "smallest" : "Medicaid",
+          "null" : 0,
+          "largest" : "Medicare and Medicaid",
+          "top" : [ {
+            "count" : 14319,
+            "item" : "Medicare and Medicaid"
+          }, {
+            "count" : 787,
+            "item" : "Medicare"
+          }, {
+            "count" : 594,
+            "item" : "Medicaid"
+          } ]
+        }
+      }, {
+        "id" : 2857168,
+        "name" : "Type of Ownership",
+        "dataTypeName" : "text",
+        "fieldName" : "type_of_ownership",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1305053,
+        "width" : 274,
+        "cachedContents" : {
+          "non_null" : 15700,
+          "smallest" : "For profit - Corporation",
+          "null" : 0,
+          "largest" : "Non profit - Other",
+          "top" : [ {
+            "count" : 8872,
+            "item" : "For profit - Corporation"
+          }, {
+            "count" : 2950,
+            "item" : "Non profit - Corporation"
+          }, {
+            "count" : 1213,
+            "item" : "For profit - Partnership"
+          }, {
+            "count" : 754,
+            "item" : "Non profit - Church related"
+          }, {
+            "count" : 535,
+            "item" : "For profit - Individual"
+          }, {
+            "count" : 429,
+            "item" : "Government - County"
+          }, {
+            "count" : 301,
+            "item" : "Non profit - Other"
+          }, {
+            "count" : 188,
+            "item" : "For profit - Limited liability company"
+          }, {
+            "count" : 150,
+            "item" : "Government - Hospital district"
+          }, {
+            "count" : 143,
+            "item" : "Government - State"
+          }, {
+            "count" : 96,
+            "item" : "Government - City"
+          }, {
+            "count" : 64,
+            "item" : "Government - City/county"
+          }, {
+            "count" : 5,
+            "item" : "Government - Federal"
+          } ]
+        }
+      }, {
+        "id" : 2857169,
+        "name" : "Located Within a Hospital?",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "located_within_a_hospital_",
+        "position" : 17,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1305054,
+        "width" : 382,
+        "cachedContents" : {
+          "non_null" : 15700,
+          "smallest" : false,
+          "null" : 0,
+          "largest" : true,
+          "top" : [ {
+            "count" : 14684,
+            "item" : false
+          }, {
+            "count" : 1016,
+            "item" : true
+          } ]
+        }
+      }, {
+        "id" : 2857170,
+        "name" : "Multi Nursing Home Ownership?",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "multi_nursing_home_ownership_",
+        "position" : 18,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1305055,
+        "width" : 418,
+        "cachedContents" : {
+          "non_null" : 15700,
+          "smallest" : false,
+          "null" : 0,
+          "largest" : true,
+          "top" : [ {
+            "count" : 8597,
+            "item" : true
+          }, {
+            "count" : 7103,
+            "item" : false
+          } ]
+        }
+      }, {
+        "id" : 2857171,
+        "name" : "Resident and Family Councils",
+        "dataTypeName" : "text",
+        "fieldName" : "resident_and_family_councils",
+        "position" : 19,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1305056,
+        "width" : 406,
+        "cachedContents" : {
+          "non_null" : 15700,
+          "smallest" : "BOTH",
+          "null" : 0,
+          "largest" : "RESIDENT",
+          "top" : [ {
+            "count" : 10121,
+            "item" : "RESIDENT"
+          }, {
+            "count" : 4954,
+            "item" : "BOTH"
+          }, {
+            "count" : 569,
+            "item" : "NONE"
+          }, {
+            "count" : 56,
+            "item" : "FAMILY"
+          } ]
+        }
+      }, {
+        "id" : 2857172,
+        "name" : "Continuing Care Retirement Community?",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "continuing_care_retirement_community_",
+        "position" : 20,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1305057,
+        "width" : 500,
+        "cachedContents" : {
+          "non_null" : 15700,
+          "smallest" : false,
+          "null" : 0,
+          "largest" : true,
+          "top" : [ {
+            "count" : 14270,
+            "item" : false
+          }, {
+            "count" : 1430,
+            "item" : true
+          } ]
+        }
+      }, {
+        "id" : 2857173,
+        "name" : "Quality Indicator Survey?",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "quality_indicator_survey_",
+        "position" : 21,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1305058,
+        "width" : 370,
+        "cachedContents" : {
+          "non_null" : 15700,
+          "smallest" : false,
+          "null" : 0,
+          "largest" : true,
+          "top" : [ {
+            "count" : 12208,
+            "item" : false
+          }, {
+            "count" : 3492,
+            "item" : true
+          } ]
+        }
+      }, {
+        "id" : 2857174,
+        "name" : "Special Focus Facility?",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "special_focus_facility_",
+        "position" : 22,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1305059,
+        "width" : 346,
+        "cachedContents" : {
+          "non_null" : 15700,
+          "smallest" : false,
+          "null" : 0,
+          "largest" : true,
+          "top" : [ {
+            "count" : 15553,
+            "item" : false
+          }, {
+            "count" : 147,
+            "item" : true
+          } ]
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "drs7-75yr",
+        "displayName" : "cms",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "profileImageUrlLarge" : "/images/profile/2181/9930/medicare_googledata_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/2181/9930/medicare_googledata_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/2181/9930/medicare_googledata_tiny.jpg",
+        "profileLastModified" : 1300809801,
+        "roleName" : "administrator",
+        "screenName" : "cms",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets" ]
+      },
+      "query" : {
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "drs7-75yr",
+        "displayName" : "cms",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "profileImageUrlLarge" : "/images/profile/2181/9930/medicare_googledata_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/2181/9930/medicare_googledata_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/2181/9930/medicare_googledata_tiny.jpg",
+        "profileLastModified" : 1300809801,
+        "roleName" : "administrator",
+        "screenName" : "cms",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets" ]
+      },
+      "tags" : [ "nursing home", "nhc", "general information" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "AD9DCE54-9E0F-41BA-BBD3-7D71F70197EF", 1, 1316800694, "391130", 1316800694, "391130", "{\n}", "015009", "BURNS NURSING HOME, INC.", "701 MONROE STREET NW", "RUSSELLVILLE", "AL", "35653", "(256) 332-4110", 1283324400, 1283324400, "57", "45", "79", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, false, "BOTH", false, false, false ]
+, [ 2, "6CD2EB1B-CA67-47A2-8863-C010CCF7191F", 2, 1316800694, "391130", 1316800694, "391130", "{\n}", "015010", "COOSA VALLEY NURSING FACILITY", "315 WEST HICKORY STREET", "SYLACAUGA", "AL", "35150", "(256) 249-5604", 1284102000, 1284447600, "85", "73", "86", "fully sprinklered", "Medicare and Medicaid", "Non profit - Other", true, false, "BOTH", false, false, false ]
+, [ 3, "3890540D-C635-404F-A0E8-FA93D46B72ED", 3, 1316800694, "391130", 1316800694, "391130", "{\n}", "015012", "HIGHLANDS HEALTH AND REHAB", "380 WOODS COVE ROAD", "SCOTTSBORO", "AL", "35768", "(256) 218-3708", 1292400000, 1292400000, "50", "46", "92", "fully sprinklered", "Medicare and Medicaid", "Government - County", true, true, "BOTH", false, false, false ]
+, [ 4, "09A5D978-CBE7-46E3-93AC-E079782D4790", 4, 1316800694, "391130", 1316800694, "391130", "{\n}", "015014", "EASTVIEW HEALTH CARE CENTER", "7755 FOURTH AVENUE SOUTH", "BIRMINGHAM", "AL", "35206", "(205) 833-0146", 1288249200, 1288681200, "112", "66", "59", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, true, "BOTH", false, false, false ]
+, [ 5, "485CFB46-0019-465A-BF9A-DAF870BDB2F2", 5, 1316800694, "391130", 1316800694, "391130", "{\n}", "015015", "PLANTATION MANOR NURSING HOME", "6450 OLD TUSCALOOSA HIGHWAY   P O BOX 97", "MC CALLA", "AL", "35111", "(205) 477-6161", 1305788400, 1306134000, "103", "94", "91", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, false, "BOTH", false, false, false ]
+, [ 6, "9169B94F-A8DB-42D9-B8BD-93537E42C52F", 6, 1316800694, "391130", 1316800694, "391130", "{\n}", "015016", "ATHENS CONVALESCENT CENTER INC", "611 WEST MARKET STREET", "ATHENS", "AL", "35611", "(256) 232-1620", 1292313600, 1292313600, "149", "136", "91", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, false, "BOTH", false, false, false ]
+, [ 7, "844F30D4-74C1-44D5-AA0A-7A793FC55142", 7, 1316800694, "391130", 1316800694, "391130", "{\n}", "015019", "MERRY WOOD LODGE CARE AND REHABILITATION CENTER", "P O BOX 130", "ELMORE", "AL", "36025", "(334) 567-8484", 1298620800, 1299139200, "124", "108", "87", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, true, "RESIDENT", false, false, false ]
+, [ 8, "36BDCE40-96A5-48B8-A8CE-E095F5A10F42", 8, 1316800694, "391130", 1316800694, "391130", "{\n}", "015023", "HATLEY HEALTH CARE INC", "300 MEDICAL CENTER DRIVE", "CLANTON", "AL", "35045", "(205) 755-4960", 1296720000, 1297238400, "201", "125", "62", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, false, "BOTH", false, false, false ]
+, [ 9, "79163210-7207-458E-BA83-8A05E8CAD4E6", 9, 1316800694, "391130", 1316800694, "391130", "{\n}", "015024", "LIMESTONE HEALTH FACILITY", "1600 WEST HOBBS STREET", "ATHENS", "AL", "35611", "(256) 232-3461", 1286434800, 1286521200, "170", "152", "89", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, false, "RESIDENT", false, false, false ]
+, [ 10, "8F7603D5-5A5D-44B6-81E5-0813783D1509", 10, 1316800694, "391130", 1316800694, "391130", "{\n}", "015027", "WETUMPKA HEALTH AND REHABILITA", "1825 HOLTVILLE ROAD", "WETUMPKA", "AL", "36092", "(334) 567-5131", 1285225200, 1285225200, "121", "107", "88", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, true, "BOTH", false, false, false ]
+, [ 11, "011E0525-70E8-4582-B1CB-76A70006E849", 11, 1316800694, "391130", 1316800694, "391130", "{\n}", "015028", "KELLER LANDING CARE AND REHABILITATION CENTER", "813 KELLER LANE", "TUSCUMBIA", "AL", "35674", "(256) 383-1535", 1277362800, 1277881200, "109", "74", "68", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, true, "BOTH", false, false, false ]
+, [ 12, "88529188-1796-4B1A-913E-528B56A53A42", 12, 1316800694, "391130", 1316800694, "391130", "{\n}", "015031", "MITCHELL-HOLLINGSWORTH NURSING &amp; REHABILITATION", "805 FLAGG CIRCLE", "FLORENCE", "AL", "35631", "(256) 740-5400", 1289462400, 1290067200, "222", "218", "98", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, true, "BOTH", false, false, false ]
+, [ 13, "D47F5B1F-19FE-4909-9A4C-85BA39201590", 13, 1316800694, "391130", 1316800694, "391130", "{\n}", "015032", "GOLDEN LIVING CENTER - FOLEY", "1701 NORTH ALSTON STREET", "FOLEY", "AL", "36535", "(251) 943-2781", 1299312000, 1299571200, "154", "131", "85", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, true, "BOTH", false, false, false ]
+, [ 14, "60DA478F-980C-4226-8C9D-8FC66233D84D", 14, 1316800694, "391130", 1316800694, "391130", "{\n}", "015034", "HUNTER CREEK HEALTH AND REHABILITATION, LLC", "600 34TH ST", "NORTHPORT", "AL", "35473", "(205) 339-5900", 1279177200, 1279609200, "78", "70", "90", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, true, "BOTH", false, false, false ]
+, [ 15, "B2EDF1C1-8084-4F4D-998E-083ACE4F52E4", 15, 1316800694, "391130", 1316800694, "391130", "{\n}", "015035", "WEST GATE VILLAGE", "100 PINEVIEW AND THIRD P.O. BOX 49", "BREWTON", "AL", "36427", "(251) 867-6077", 1296201600, 1296201600, "129", "113", "88", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, false, "BOTH", false, false, false ]
+, [ 16, "8DF57BD1-722D-44AD-98C9-A31F8448764E", 16, 1316800694, "391130", 1316800694, "391130", "{\n}", "015037", "WOODLEY MANOR HEALTH &amp; REHABILITATION", "3312 WOODLEY ROAD", "MONTGOMERY", "AL", "36116", "(334) 288-2780", 1294300800, 1294819200, "105", "84", "80", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, true, "BOTH", false, false, false ]
+, [ 17, "A7A60082-0E32-464D-BA97-312635CA5F99", 17, 1316800694, "391130", 1316800694, "391130", "{\n}", "015040", "GOLDEN LIVING CENTER - MONTGOMERY", "2020 NORTH COUNTRY CLUB DRIVE", "MONTGOMERY", "AL", "36106", "(334) 263-1643", 1304060400, 1304578800, "138", "106", "77", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, true, "BOTH", false, false, false ]
+, [ 18, "F82883F8-667B-4116-8586-9C67CFAB40A9", 18, 1316800694, "391130", 1316800694, "391130", "{\n}", "015042", "SUMTER HEALTH AND REHABILITATION, L L C", "1505 EAST 4TH AVENUE", "YORK", "AL", "36925", "(205) 392-5281", 1277967600, 1278486000, "125", "104", "83", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, true, "RESIDENT", false, false, false ]
+, [ 19, "82C164B4-583C-44CF-B206-AD1787FF784D", 19, 1316800694, "391130", 1316800694, "391130", "{\n}", "015043", "SOUTH HAVEN HEALTH AND REHABILITATION CENTER", "1300 EAST SOUTH BOULEVARD", "MONTGOMERY", "AL", "36116", "(334) 288-0122", 1297929600, 1297929600, "102", "89", "87", "fully sprinklered", "Medicare and Medicaid", "For profit - Limited liability company", false, true, "RESIDENT", false, false, true ]
+, [ 20, "788A94CD-B373-4887-B82B-D9B4864D254C", 20, 1316800694, "391130", 1316800694, "391130", "{\n}", "015044", "CAREGIVERS OF PLEASANT GROVE, INC", "700 FIRST AVENUE", "PLEASANT GROVE", "AL", "35127", "(205) 744-8120", 1307170800, 1307602800, "64", "58", "91", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, true, "RESIDENT", false, false, false ]
+, [ 21, "30FEB9A6-178B-42A3-BC80-C1BC0130B8D3", 21, 1316800694, "391130", 1316800694, "391130", "{\n}", "015045", "GEORGE H LANIER MEMORIAL NURSING HOME", "4800 48TH ST", "VALLEY", "AL", "36854", "(334) 756-1401", 1304578800, 1305010800, "103", "99", "96", "fully sprinklered", "Medicare and Medicaid", "Non profit - Other", true, false, "BOTH", false, false, false ]
+, [ 22, "F61C4EEA-736C-4ABB-B28F-2B84A1BEF928", 22, 1316800694, "391130", 1316800694, "391130", "{\n}", "015047", "NORTHWAY HEALTH AND REHABILITATION, LLC", "1424 NORTH 25TH STREET", "BIRMINGHAM", "AL", "35234", "(205) 328-5870", 1309417200, 1310022000, "113", "97", "86", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, true, "RESIDENT", false, false, false ]
+, [ 23, "66D6A088-D4E4-4A1D-9CFA-9B8B73CCCE2C", 23, 1316800694, "391130", 1316800694, "391130", "{\n}", "015048", "CULLMAN HEALTH CARE CENTER", "1607 MAIN AVE NE", "CULLMAN", "AL", "35055", "(256) 734-8745", 1291276800, 1291708800, "95", "83", "87", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, true, "BOTH", false, false, false ]
+, [ 24, "32C3B245-6C29-4E4A-A334-7D86E1D7746B", 24, 1316800694, "391130", 1316800694, "391130", "{\n}", "015049", "MERCY MEDICAL", "101 VILLA DRIVE P O BOX 1090", "DAPHNE", "AL", "36526", "(251) 626-2694", 1287126000, 1287730800, "106", "57", "54", "fully sprinklered", "Medicare and Medicaid", "Non profit - Church related", false, false, "RESIDENT", true, false, false ]
+, [ 25, "DFA42E60-88CF-4905-8CC5-3CBA97C365A0", 25, 1316800694, "391130", 1316800694, "391130", "{\n}", "015050", "OAK TRACE CARE &amp; REHABILITATION CENTER", "325 SELMA ROAD", "BESSEMER", "AL", "35020", "(205) 428-9383", 1303369200, 1305097200, "79", "72", "91", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, true, "BOTH", false, false, false ]
+, [ 26, "60EF2EC4-2E8F-4EC6-A6E8-63FDAAB7507B", 26, 1316800694, "391130", 1316800694, "391130", "{\n}", "015053", "CLEBURNE COUNTY NURSING HOME", "122 BROCKFORD ROAD", "HEFLIN", "AL", "36264", "(256) 463-2121", 1300345200, 1300777200, "82", "71", "87", "fully sprinklered", "Medicare and Medicaid", "Government - City/county", false, false, "RESIDENT", false, false, false ]
+, [ 27, "5CDA568F-3154-4CB7-9120-A148DA4233A2", 27, 1316800694, "391130", 1316800694, "391130", "{\n}", "015060", "TERRACE OAKS CARE &amp; REHABILITATION CENTER", "4201 BESSEMER HIGHWAY", "BESSEMER", "AL", "35021", "(205) 428-3249", 1299744000, 1300345200, "69", "65", "94", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, true, "RESIDENT", false, false, false ]
+, [ 28, "AEE09D7B-2FAA-438B-B6C1-7CF14ACA5522", 28, 1316800694, "391130", 1316800694, "391130", "{\n}", "015063", "GOLDEN LIVING CENTER - BOAZ", "600 CORLEY AVENUE", "BOAZ", "AL", "35957", "(256) 593-8380", 1279177200, 1280300400, "100", "98", "98", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, true, "BOTH", false, false, false ]
+, [ 29, "6034D0FD-43F4-4CAE-A72B-0F3BA169638A", 29, 1316800694, "391130", 1316800694, "391130", "{\n}", "015065", "PRATTVILLE HEALTH AND REHABILITATION, LLC", "601 JASMINE TRAIL", "PRATTVILLE", "AL", "36066", "(334) 365-2241", 1295596800, 1295856000, "162", "151", "93", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, true, "BOTH", false, false, false ]
+, [ 30, "F49D1CC2-78EE-4B4D-9F1B-6EE068193880", 30, 1316800694, "391130", 1316800694, "391130", "{\n}", "015066", "TERRACE MANOR NURSING &amp; REHABILITATION CENTER, INC", "390 UNDERWOOD ROAD", "RUSSELLVILLE", "AL", "35653", "(256) 332-3826", 1298534400, 1298966400, "63", "56", "89", "fully sprinklered", "Medicare and Medicaid", "For profit - Individual", false, false, "RESIDENT", false, false, false ]
+, [ 31, "1DD66A5F-7C61-47A7-AE47-0E2269952AB9", 31, 1316800694, "391130", 1316800694, "391130", "{\n}", "015067", "COTTAGE OF THE SHOALS CARE &amp; REHABILITATION CENTER", "500 JOHN ALDRIDGE DRIVE", "TUSCUMBIA", "AL", "35674", "(256) 383-4541", 1306393200, 1307516400, "103", "95", "92", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, true, "BOTH", false, false, false ]
+, [ 32, "0331B42D-6C37-44A8-A644-2AC38063D0DF", 32, 1316800694, "391130", 1316800694, "391130", "{\n}", "015071", "RUSSELLVILLE HEALTH CARE INC", "705 NORTHEAST GANDY STREET", "RUSSELLVILLE", "AL", "35653", "(256) 332-3773", 1282806000, 1283324400, "50", "50", "100", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, true, "BOTH", false, false, false ]
+, [ 33, "F8D081E0-8889-4C94-A70F-7E2DEC86E8F0", 33, 1316800694, "391130", 1316800694, "391130", "{\n}", "015073", "HANCEVILLE NURSING &amp; REHAB CENTER, INC", "420 MAIN STREET NE", "HANCEVILLE", "AL", "35077", "(256) 352-6481", 1299744000, 1300258800, "208", "200", "96", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, false, "BOTH", false, false, false ]
+, [ 34, "EDF19DE8-8C9D-4183-ADE0-6B8C296FB037", 34, 1316800694, "391130", 1316800694, "391130", "{\n}", "015075", "SUMMERFORD NURSING HOME INC", "4087 HIGHWAY 31 SOUTHWEST", "FALKVILLE", "AL", "35622", "(256) 784-5275", 1308726000, 1309244400, "216", "201", "93", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, false, "BOTH", false, false, false ]
+, [ 35, "1B619B22-F4B8-4A41-9929-F588BFD8C07D", 35, 1316800694, "391130", 1316800694, "391130", "{\n}", "015076", "FAIR HAVEN RETIREMENT CENTER", "1424 MONTCLAIR ROAD", "BIRMINGHAM", "AL", "35210", "(205) 956-4150", 1287730800, 1288162800, "197", "179", "91", "fully sprinklered", "Medicare and Medicaid", "Non profit - Corporation", false, true, "BOTH", true, false, false ]
+, [ 36, "6AA43BF5-D429-40DF-B598-B6A4416495CE", 36, 1316800694, "391130", 1316800694, "391130", "{\n}", "015083", "ELBA NURSING HOME", "987 DRAYTON STREET", "ELBA", "AL", "36323", "(334) 897-2257", 1297324800, 1297670400, "111", "66", "59", "fully sprinklered", "Medicare and Medicaid", "Government - City/county", true, false, "BOTH", false, false, false ]
+, [ 37, "5BA9A5B4-7C63-4926-B8E6-241D0819D018", 37, 1316800694, "391130", 1316800694, "391130", "{\n}", "015084", "PARK PLACE NURSING AND REHABILITATION CENTER, LLC", "100 PARK PLACE", "SELMA", "AL", "36701", "(334) 872-3471", 1285225200, 1285138800, "103", "102", "99", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, false, "RESIDENT", false, false, false ]
+, [ 38, "C207AB24-6A50-433F-A9C3-CD66330292A7", 38, 1316800694, "391130", 1316800694, "391130", "{\n}", "015089", "EVERGREEN NURSING HOME", "100 SANDERS DRIVE", "EVERGREEN", "AL", "36401", "(251) 578-3783", 1284620400, 1284620400, "61", "60", "98", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, true, "BOTH", false, false, false ]
+, [ 39, "09003CFF-77F6-4FC4-961D-7A53A781F420", 39, 1316800694, "391130", 1316800694, "391130", "{\n}", "015091", "FAIRFIELD NURSING AND REHABILITATION CENTER", "6825 GRASSELLI ROAD", "FAIRFIELD", "AL", "35064", "(205) 780-3920", 1295596800, 1295942400, "190", "141", "74", "fully sprinklered", "Medicare and Medicaid", "For profit - Corporation", false, false, "RESIDENT", false, false, false ]
+]
+}
