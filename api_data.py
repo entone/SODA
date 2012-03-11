@@ -1,6 +1,6 @@
 rodent_baiting = {
     "id": "97t6-zrhs",
-    "location_column": 6043686
+    "location_column": 6325566
 }    
             
 police_stations = {
@@ -20,8 +20,8 @@ cta_stops = {
 }
             
 crimes = {
-    "id": "ijzp-q8t2",
-    "location_column": 5839919
+    "id": "qnrb-dui6",
+    "location_column": 6334615
 }   
         
 libraries = {
@@ -52,7 +52,7 @@ farmers_market = {
     
 graffiti_removal = {
     "id": "hec5-y4x5",
-    "location_column": 6042629
+    "location_column": 6356063
 }    
 
 sanitation_complaints = {

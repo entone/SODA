@@ -30,11 +30,12 @@ class Worker(Thread):
                 for i, data in enumerate(row):
                     type = cols[i]['dataTypeName']
                     name = cols[i]['fieldName']
-                    #print type
-                    #print name
+                    #print "Name: %s" % name
+                    #print "Type: %s" % type
                     try:
                         data = getattr(self, "parse_%s"%type)(data, field=name)
                     except Exception as e:
+                        print e
                         pass
                     obj[name] = data
                 ar.append(obj)
@@ -43,24 +44,65 @@ class Worker(Thread):
             self.queue.task_done()
     
     def parse_meta_data(self, data, field=None):
-        return data
+        if field.find("_at") > 0:
+            return self.parse_date(data, field)
+        else: return data
     
+    def parse_url(self, data, field=None):
+        f = []
+        for i in data:
+            if i:
+                try:
+                    data = str(i)
+                except: continue
+                f.append(data)
+        
+        return f
+
     def parse_date(self, data, field=None):
-       try:
+        try:
            return datetime.datetime.strptime(str(data), "%Y%m%d")
-       except:
-           return datetime.datetime.utcfromtimestamp(data) 
-    
+        except:
+            return datetime.datetime.utcfromtimestamp(data)
+
+    def parse_location(self, data, field=None):
+        f = []
+        for i in data:
+            if i:
+                try:
+                    data = float(i)
+                except: continue
+                f.append(data)
+        
+        return f
+
+    def parse_calendar_date(self, data, field=None):
+        return datetime.datetime.strptime(str(data), "%Y-%m-%dT%H:%M:%S") 
+
     def parse_number(self, data, field=None):
-        return int(data)
+        try:
+            return int(data)
+        except:
+            return float(data)
     
     def replace(self, st, dic):
         for k,v in dic.iteritems(): st = st.replace(k, v)
         return st
     
+    def parse_phone(self, data, field=None):
+        if isinstance(data, list):
+            for i in data:
+                if i: 
+                    data = i
+                    break;
+        return u"+1%s" % self.replace(data, {"(":"", ")":"", " ":"", "-":""}).strip()
+
     def parse_text(self, data, field=None):
-        if field == 'phone_number': return u"+1%s" % self.replace(data, {"(":"", ")":"", " ":"", "-":""}).strip()
+        if field in ['phone_number','fax','tty']: return self.parse_phone(data, field)
         if field == 'state': return data.upper()
+        if field.find("_date") > 0: 
+            print "DATE!! %s" % field
+            return self.parse_date(data, field=field) 
         final = " ".join([s.capitalize() for s in data.lower().strip().split(" ")])
         return u"%s" % final
     
@@ -71,23 +113,27 @@ class Worker(Thread):
 
 class Parser(object):
     
-    def __init__(self, file, post=None):        
+    def __init__(self, file=None, data={}, post=None):        
         workers=1
-        print "Loading File: %s" % file
-        data = json.loads(open(file).read())
-        print "File Loaded"
+        if file:
+            print "Loading File: %s" % file
+            data = json.loads(open(file).read())
+            print "File Loaded"
+        d = data.get("data", [])
+        cols = data.get('meta', {}).get('view', {}).get('columns', {})
         start = 0
         print "Workers: %s" % workers
-        print "Data Length: %s" % len(data['data'])
-        per = len(data['data'])/workers
+        per = 0
+        print "Data Length: %s" % len(d)
+        per = len(d)/workers
         print "Rows Per Thread: %s" % per
         strt_time = time.time()
         q = Queue.Queue()
         threads = []
         for i in xrange(workers):
             end = start+per
-            a = copy.copy(data['data'][start:end])
-            cols = copy.copy(data['meta']['view']['columns'])            
+            a = copy.copy(d[start:end])
+            cols = copy.copy(cols)            
             threads.append(Worker(queue=q, columns=cols, post=post, name="Parser %s" % i))
             q.put(a)
             start = end

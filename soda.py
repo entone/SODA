@@ -1,6 +1,9 @@
 import httplib
+import urllib
+import urllib2
 import json
-import data
+import api_data
+from parser import Parser
 
 HOST = "data.cityofchicago.org"
 SERVICE = "/views/INLINE/rows.json"
@@ -45,16 +48,34 @@ class Request(base):
     _start_ = 0
     _length_ = 10
     _query_ = None
-    
+
+class GeoCode(object):
+
+    base_url = "http://rpc.geocoder.us/service/csv?%s"
+    latitude = None
+    longitude = None
+
+    def __init__(self, address):
+        obj = {"address":address}
+        url = self.base_url % urllib.urlencode(obj)
+        res = urllib2.urlopen(url).read()
+        args = res.split(",")
+        self.latitude = args[0]
+        self.longitude = args[1]
+
+
+  
 class SODA(object):
     
     def __getattr__(self, key):
         def meth(**kwargs):
             try:
-                args = getattr(data, key)
+                args = getattr(api_data, key)
             except Exception as e:
+                print e
                 raise Exception("%s is not a valid method, see data.py for available endpoints" % key)
             else:
+                print "Querying: %s" % key
                 q = {
                     "OriginalViewId":args['id'],
                     "name":key,
@@ -84,10 +105,20 @@ class SODA(object):
                         }
                 }
                 js = json.dumps(q)
-                print js
-                conn = httplib.HTTPConnection(HOST)
-                conn.request("POST", SERVICE+"?method=index", js, headers={ "Content-type:":"application/json"})
-                res = conn.getresponse()
-                return res.read()
+                try:
+                    conn = httplib.HTTPConnection(HOST)
+                    conn.request("POST", SERVICE+"?method=index", js, headers={ "Content-type:":"application/json"})
+                    res = conn.getresponse()
+                    txt = res.read()
+                except Exception as e:
+                    print e
+                    return Parser()
+                else:
+                    try:
+                        #print txt
+                        d=json.loads(txt)
+                        return Parser(data=d)
+                    except Exception as e:
+                        return Parser()
                 
         return meth
