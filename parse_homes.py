@@ -8,7 +8,8 @@ def mongo_insert(ar):
     db = conn['gericare']
     collection = db['locations']
     for a in ar:
-        collection.insert(a)
+        if a['city'] == "Chicago":
+            collection.insert(a)
 
 
 pa = Parser(file="sample_data/nursing_homes.json", post=mongo_insert)

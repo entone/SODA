@@ -60,8 +60,10 @@ class GeoCode(object):
         url = self.base_url % urllib.urlencode(obj)
         res = urllib2.urlopen(url).read()
         args = res.split(",")
-        self.latitude = args[0]
-        self.longitude = args[1]
+        try:
+            self.latitude = float(args[0])
+            self.longitude = float(args[1])
+        except: pass            
 
 
   
