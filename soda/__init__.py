@@ -3,7 +3,7 @@ import urllib
 import urllib2
 import json
 import api_data
-from parser import Parser
+from .parser import Parser
 
 HOST = "data.cityofchicago.org"
 SERVICE = "/views/INLINE/rows.json"
@@ -119,6 +119,7 @@ class SODA(object):
                     try:
                         #print txt
                         d=json.loads(txt)
+                        if d.get("error"): print d
                         return Parser(data=d)
                     except Exception as e:
                         return Parser()

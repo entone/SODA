@@ -1,4 +1,4 @@
-from parser import Parser
+from soda.parser import Parser
 from pymongo.connection import Connection
 
 Connection('localhost:27017')['gericare']['locations'].remove()
